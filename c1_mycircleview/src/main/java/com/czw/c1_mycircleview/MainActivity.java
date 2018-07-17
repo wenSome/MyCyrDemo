@@ -18,4 +18,9 @@ public class MainActivity extends AppCompatActivity {
         //123
         //789
     }
+
+
+    private String getdata(){
+        return "data";
+    }
 }
