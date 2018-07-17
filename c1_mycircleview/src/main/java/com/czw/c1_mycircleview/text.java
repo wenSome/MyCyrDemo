@@ -13,6 +13,15 @@ package com.czw.c1_mycircleview;
 public class text {
 
     private String content;
+    private String colors;
+
+    public String getColors() {
+        return colors;
+    }
+
+    public void setColors(String colors) {
+        this.colors = colors;
+    }
 
     public String getContent() {
         return content;
@@ -21,4 +30,6 @@ public class text {
     public void setContent(String content) {
         this.content = content;
     }
+
+
 }
