@@ -14,6 +14,10 @@ public class text {
 
     private String content;
 
+    public text(String content) {
+        this.content = content;
+    }
+
     public String getContent() {
         return content;
     }
