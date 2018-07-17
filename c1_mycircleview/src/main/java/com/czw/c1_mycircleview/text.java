@@ -23,6 +23,10 @@ public class text {
         this.colors = colors;
     }
 
+    public text(String content) {
+        this.content = content;
+    }
+
     public String getContent() {
         return content;
     }
