@@ -19,8 +19,19 @@ public class MainActivity extends AppCompatActivity {
         //789
     }
 
+    String sedata;
+    public String getdata(){
+        if(sedata!=null){
+            return "data";
+        }else{
+            return null;
+        }
 
-    private String getdata(){
-        return "data";
     }
+
+    public void setdata(String data){
+        sedata=data;
+    }
+
+
 }
