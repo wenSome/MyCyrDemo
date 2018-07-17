@@ -2,6 +2,7 @@ package com.czw.c1_mycircleview;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.TextView;
 
 /**
 * @author wenSome
@@ -10,6 +11,7 @@ import android.os.Bundle;
 */
 public class MainActivity extends AppCompatActivity {
 
+    private TextView mTextView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,6 +19,11 @@ public class MainActivity extends AppCompatActivity {
         //新分支456
         //123
         //789
+        setdata("分支");
+
+        mTextView=findViewById(R.id.tv);
+
+        mTextView.setText(getdata());
     }
 
     String sedata;
