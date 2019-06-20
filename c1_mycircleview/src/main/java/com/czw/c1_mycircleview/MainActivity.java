@@ -41,4 +41,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    private int getNum(){
+        return -1;
+    }
 }
